@@ -63,7 +63,7 @@ const tick = () => {
 	camera.position.y = Math.sin(elapsedTime * 1);
 
 	camera.lookAt(cube.position);
-
+	//
 	// Render
 	renderer.render(scene, camera);
 
